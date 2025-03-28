@@ -1,0 +1,35 @@
+ASSIGNMENT=lexprog
+
+ex=~/$ASSIGNMENT
+
+cd $LIB/public/PA_Fall2024/PA1-MCLLexer
+
+[ ! -e $ex ] && echo Cannot find the program, please build it! && exit 1
+ 
+ofile=`mktemp`
+
+cases=("nofile" "cantopen" "empty" "onefileonly" "idents" "badarg" "realerr" "invstr1" "invstr2"  "noflags" "comments" "invchar1" "invchar2" "invsymbol" "ids_keywords" "integers" "validops" "constants" "prog1" )
+
+flags=("" "cantopen" "empty"  "onefileonly -all numers" "idents -all -id" "badarg -al" "realerr -num -all" "invstr1 -all -str" "invstr2 -all -str" "noflags" "comments -all -id -kw" "invchar1 -all" "invchar2 -all" "invsymbol -all -kw"  "ids_keywords -all -kw -id" "integers -all -num" "validops -all" "constants -all -bool -char -num -str" "prog1 -id -num -str -char -bool -kw") 
+
+
+for i in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18;
+do
+	score=0
+    echo RUNNING ${cases[i]}
+    eval $LIB/public/wrapcase.pl -- "bash -c \"$ex ${flags[$i]} 2>&1\"" | tee $ofile
+
+    diff -i -c $ofile ${cases[$i]}.correct
+    
+    rc=$?
+
+    [ $rc -eq 0  ] && score=1
+    echo RESULT: ${cases[i]}  "[ " $score " / 1 ]"   
+
+    echo "-----------------------------------------------------"
+
+    rm $ofile
+    
+done
+
+exit $score

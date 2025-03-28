@@ -1,0 +1,25 @@
+RCONST: (23.5)
+SCONST: "Please type the coordinates of three points"
+RCONST: (15.25)
+ICONST: (-125)
+BCONST: (true)
+ICONST: (4321)
+RCONST: (-.725)
+CCONST: 'T'
+ICONST: (625)
+RCONST: (+2.75)
+
+Lines: 7
+Total Tokens: 10
+Identifiers and Keywords: 0
+Numerics: 7
+Booleans: 1
+Strings and Characters: 2
+NUMERIC CONSTANTS:
+-125, -0.725, 2.75, 15.25, 23.5, 625, 4321
+BOOLEAN CONSTANTS:
+true
+CHARACTER CONSTANTS:
+'T'
+STRINGS:
+"Please type the coordinates of three points"

@@ -1,0 +1,11 @@
+PROGRAM Area
+{	/*Testing string concatenation*/
+	string str1 = "Hello ", str2 = "World!", str = ""; 
+	char ch1= 'D', ch2 = 'B';
+	
+	str = str1 + str2;
+	str1 += ch1 + ". " + ch2 + ".";
+	
+	/*Display the results*/
+	PRINT ( "The output results are " , str1, ", ", str);
+}

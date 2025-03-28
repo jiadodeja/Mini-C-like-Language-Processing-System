@@ -1,0 +1,12 @@
+PROGRAM Volume
+{	//Testing If statement then-clause (Clean Program 2)
+	float val1 = 5, val2 = 8;
+	int sum = 0;	
+	
+	if (sum == 0)
+	   val2 = val1 + val2;		
+	else
+	   val2 = val1 - val2;
+	   
+	print ("The output results are ", val1, " and ", val2);
+}

@@ -1,0 +1,8 @@
+program Volume
+{	/*Illegal operand type for Sign operation*/
+	float r, b = 7; 
+	bool flag = true, tag;
+	
+	r = b; 
+	tag = - flag;	
+}

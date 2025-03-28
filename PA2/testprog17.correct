@@ -1,0 +1,7 @@
+Initialization of the variable r in the declaration statement at line 3
+Initialization of the variable a in the declaration statement at line 3
+Initialization of the variable h in the declaration statement at line 3
+in IfStmt then-clause at nesting level: 1
+in IfStmt else-clause at nesting level: 1
+(DONE)
+Successful Parsing

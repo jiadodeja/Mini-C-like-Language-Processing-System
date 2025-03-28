@@ -1,0 +1,11 @@
+PROGRAM Area
+{	/*Testing illegal operand for relational operator*/
+	string str1 = "hello"; 
+	char ch= 'B';
+	INT i = 2, j = 3 ;	
+	
+	if(str1 > i)
+		i = i + j;	
+	/*Display the results*/
+	PRINT ( "The output results are " , str1, ", ", ch, ", ", i);
+}

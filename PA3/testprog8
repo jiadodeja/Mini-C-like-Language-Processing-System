@@ -1,0 +1,12 @@
+PROGRAM Area
+{
+	/*Illegal operand types for the Remainder operation */
+	FLOAT r = 15, a = 4; 
+	int p, b=12;	
+		
+	p = 2 * b;
+	a = r % r;
+	
+	/*Display the results*/
+	PRINT ( "The output results are " , a, p, r);
+}

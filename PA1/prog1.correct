@@ -1,0 +1,15 @@
+
+Lines: 21
+Total Tokens: 81
+Identifiers and Keywords: 16
+Numerics: 6
+Booleans: 0
+Strings and Characters: 2
+NUMERIC CONSTANTS:
+1, 3, 3.14, 5, 10, 20
+STRINGS:
+"Volume of Cone = ", "Volume of Cylinder = "
+IDENTIFIERS:
+Volume, base_rad, cone_volume, cylinder_volume, height, radius, str1, str2, x
+KEYWORDS:
+if, else, print, int, float, string, program

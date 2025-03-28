@@ -1,0 +1,8 @@
+program Volume
+{	/*Illegal mixed-mode assignment operation*/
+	float r, b = 7; 
+	bool flag = true, tag;
+	
+	r = flag; 
+	tag = flag;	
+}

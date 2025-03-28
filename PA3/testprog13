@@ -1,0 +1,12 @@
+PROGRAM Area
+{	/*Testing combined assignment operations *=, %=*, and -=*/
+	FLOAT r = 3, a = 5, p = 7, b = 2; 
+	char ch= 'D';
+	INT i = 7, j = 2 ;	
+	
+	a *= ch + r * r;
+	ch %= i -  j;
+	p -= a / j;
+	/*Display the results*/
+	PRINT ( "The output results are " , a, " ", ch, " ", p);
+}

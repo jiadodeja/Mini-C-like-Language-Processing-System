@@ -1,0 +1,72 @@
+IDENT: <A>
+PROGRAM
+IDENT: <contains>
+FLOAT
+COMMA
+INT
+COMMA
+BOOL
+COMMA
+STRING
+IDENT: <and>
+CHAR
+IDENT: <type>
+IDENT: <variables>
+DOT
+IDENT: <You>
+IDENT: <can>
+IDENT: <use>
+IDENT: <it>
+IDENT: <to>
+IDENT: <read>
+IDENT: <from>
+IDENT: <the>
+IDENT: <keyboard>
+IDENT: <values>
+COMMA
+IDENT: <calculate>
+IDENT: <formulas>
+IDENT: <and>
+PRINT
+IDENT: <the>
+IDENT: <results>
+IF
+IDENT: <the>
+IDENT: <conditions>
+IDENT: <of>
+IDENT: <correctness>
+IDENT: <are>
+BCONST: (true)
+IDENT: <and>
+IDENT: <terminate>
+IDENT: <the>
+PROGRAM
+SEMICOL
+ELSE
+IF
+IDENT: <at>
+IDENT: <least>
+IDENT: <one>
+IDENT: <of>
+IDENT: <the>
+IDENT: <conditions>
+IDENT: <is>
+BCONST: (false)
+PRINT
+IDENT: <an>
+IDENT: <error>
+IDENT: <message>
+IDENT: <and>
+IDENT: <quit>
+DOT
+
+Lines: 4
+Total Tokens: 61
+Identifiers and Keywords: 40
+Numerics: 0
+Booleans: 2
+Strings and Characters: 0
+IDENTIFIERS:
+A, You, an, and, are, at, calculate, can, conditions, contains, correctness, error, formulas, from, is, it, keyboard, least, message, of, one, quit, read, results, terminate, the, to, type, use, values, variables
+KEYWORDS:
+if, else, print, int, float, char, string, bool, program

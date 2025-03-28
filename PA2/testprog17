@@ -1,0 +1,13 @@
+PROGRAM Cylinder
+{	/*Clean Program with If-Then-Else*/
+	INT r=8, a=0, h=10, b; 
+	FLOAT surface, volume;
+	IF ( r > 5 && h < 15 || a == 0) {
+		volume = 3.14 * r * r * h;
+	  	surface = 2 * 3.14 * r * h + 2 * 3.14 * r * r;
+	  	PRINT  ("The output results are " , volume, " ", surface, " " , h, " ", r);
+	}
+	ELSE {
+		PRINT  ("No computations should be done!" );
+	}
+}

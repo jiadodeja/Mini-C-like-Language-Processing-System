@@ -1,0 +1,8 @@
+PROGRAM Volume
+{	//Illegal expression type for If condition
+	float val1 = 5, val2 = 8;
+	int sum = 0;	
+	
+	if (sum )
+	   val2 = val1 + val2;		
+}

@@ -1,0 +1,25 @@
+PROGRAM Volume
+{	//This program testing declaration statements anywhere
+	float base_rad = 10, height = 20;
+	
+	string str1 = "Volume of Cone = ", str2 = "Volume of Cylinder = ";
+		
+	/*Calculate the volume of cone*/
+	if (base_rad > 5)
+	{
+		if(height != 0) {
+			float cone_volume=0;
+			cone_volume = (1/3 * 3.14) * base_rad * base_rad * height;
+			print(str1, cone_volume);
+		}
+		else
+			bool flag = false;
+	}
+	else
+	{
+		float cylinder_volume;
+		if(height != 0)
+			cylinder_volume = 3.14 * base_rad * base_rad * height;
+		print(str2, cylinder_volume);
+	}
+}

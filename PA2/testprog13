@@ -1,0 +1,12 @@
+PROGRAM Area
+{	/*Illegal relational expression*/
+	FLOAT r, a, p, b ; 
+	bool status;
+	INT i, j ;	
+	
+	a = (3.14) * r * r;
+	p = 2 * 3.14 * b;
+	status = ( r > 5 > i);
+	/*Display the results*/
+	PRINT ( "The output results are " , r, p, b);
+}

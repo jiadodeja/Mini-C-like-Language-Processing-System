@@ -1,0 +1,12 @@
+PROGRAM Area
+{
+	/*Illegal operand type for an arithemtic operation */
+	FLOAT r = 4, a ; 
+	char ch = 'Z';
+	string st ="Friday";	
+	a = st * r * r;
+	p = 2 * 3.14 * b;
+	
+	/*Display the results*/
+	PRINT ( "The output results are " , a, p, ch);
+}

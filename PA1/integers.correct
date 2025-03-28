@@ -1,0 +1,18 @@
+ICONST: (3456)
+ICONST: (1025)
+ICONST: (-1234)
+ICONST: (45)
+ICONST: (4321)
+ICONST: (+125)
+ICONST: (278)
+PLUS
+ICONST: (1025)
+
+Lines: 3
+Total Tokens: 9
+Identifiers and Keywords: 0
+Numerics: 7
+Booleans: 0
+Strings and Characters: 0
+NUMERIC CONSTANTS:
+-1234, 45, 125, 278, 1025, 3456, 4321

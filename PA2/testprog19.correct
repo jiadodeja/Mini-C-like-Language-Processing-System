@@ -1,0 +1,13 @@
+Initialization of the variable base_rad in the declaration statement at line 3
+Initialization of the variable height in the declaration statement at line 3
+Initialization of the variable str1 in the declaration statement at line 5
+Initialization of the variable str2 in the declaration statement at line 5
+in IfStmt then-clause at nesting level: 1
+in IfStmt then-clause at nesting level: 2
+Initialization of the variable cone_volume in the declaration statement at line 11
+in IfStmt else-clause at nesting level: 2
+Initialization of the variable flag in the declaration statement at line 16
+in IfStmt else-clause at nesting level: 1
+in IfStmt then-clause at nesting level: 2
+(DONE)
+Successful Parsing

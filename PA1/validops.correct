@@ -1,0 +1,25 @@
+PLUS
+MULT
+DIV
+MINUS
+REM
+EQ
+GTHAN
+LTHAN
+NEQ
+ASSOP
+AND
+OR
+NOT
+ADDASSOP
+SUBASSOP
+MULASSOP
+DIVASSOP
+REMASSOP
+
+Lines: 7
+Total Tokens: 18
+Identifiers and Keywords: 0
+Numerics: 0
+Booleans: 0
+Strings and Characters: 0

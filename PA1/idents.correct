@@ -1,0 +1,44 @@
+IDENT: <x1>
+COMMA
+IDENT: <y1>
+COMMA
+IDENT: <x__2>
+COMMA
+IDENT: <_y2>
+COMMA
+ICONST: (2)
+IDENT: <x3>
+COMMA
+IDENT: <Y3>
+COMMA
+IDENT: <a>
+COMMA
+IDENT: <b>
+COMMA
+IDENT: <r>
+IDENT: <str1>
+COMMA
+IDENT: <str2>
+IDENT: <_______>
+IDENT: <STR1>
+IF
+IDENT: <sTr1>
+IDENT: <x>
+DOT
+IDENT: <z>
+COMMA
+IDENT: <y>
+COMMA
+IDENT: <z>
+IDENT: <r>
+ASSOP
+ICONST: (5)
+
+Lines: 5
+Total Tokens: 35
+Identifiers and Keywords: 18
+Numerics: 2
+Booleans: 0
+Strings and Characters: 0
+IDENTIFIERS:
+STR1, Y3, _______, _y2, a, b, r, sTr1, str1, str2, x, x1, x3, x__2, y, y1, z

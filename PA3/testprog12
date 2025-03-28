@@ -1,0 +1,11 @@
+PROGRAM Area
+{	/*Testing combined assignment operations += and /=*/
+	FLOAT r = 3, a = 5, p = 7, b = 2; 
+	char ch= 'B';
+	INT i = 2, j = 3 ;	
+	
+	a += ch + r * r;
+	r /= 2.5 *  b;
+	/*Display the results*/
+	PRINT ( "The output results are " , ch, " ", a, " ", r);
+}

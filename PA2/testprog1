@@ -1,0 +1,10 @@
+program Volume
+{	/*Incorrect Type*/
+	float r, a, p, b; 
+	real i, j ;	
+
+	a = (3.14) * r * r; 
+	p = 2 * 3.14 * b;  
+	/*Display the results*/
+	PRINT ( "The output results are " , r, p, b);
+}

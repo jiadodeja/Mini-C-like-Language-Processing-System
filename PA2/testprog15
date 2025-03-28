@@ -1,0 +1,11 @@
+PROGRAM Volume
+{	//This program illegal equlaity expression
+	
+	//Variable declarations
+	float val1 , val2;
+	float sum, total;	
+	
+	if (sum == total == val1)
+	   val2 = val1;		
+		
+}
